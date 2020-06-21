@@ -6,7 +6,7 @@ There are some instructions that you should follow while using this application
           **on your location
           
           **on your sms slide bar as well in your mobile device
-# Specially for get the location
+# Especially for get the location
 you need to follow some steps as you want to send the message to the specified number:
 >> In app folder
 
