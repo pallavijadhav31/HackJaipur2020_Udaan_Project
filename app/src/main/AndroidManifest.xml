@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.cipher">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Cmplnh"></activity>
+        <activity android:name=".Cmpln" />
+        <activity android:name=".Fh" />
+        <activity android:name=".F" />
+        <activity android:name=".contacth" />
+        <activity android:name=".contact" />
+        <activity android:name=".ngowebh" />
+        <activity android:name=".Ngolisth" />
+        <activity android:name=".ngoweb" />
+        <activity android:name=".Ngolist" />
+        <activity android:name=".webmedicalh" />
+        <activity android:name=".medicallisth" />
+        <activity android:name=".webm" />
+        <activity android:name=".webh" />
+        <activity android:name=".web" />
+        <activity android:name=".Medicallist" />
+        <activity android:name=".financelisth" />
+        <activity android:name=".financelist" />
+        <activity android:name=".helthcareh" />
+        <activity android:name=".Financeh" />
+        <activity android:name=".Homeh" />
+        <activity android:name=".Healthcare" />
+        <activity android:name=".Finance" />
+        <activity android:name=".Home" />
+        <activity android:name=".Registerh" />
+        <activity android:name=".Register" />
+        <activity android:name=".loginh" />
+        <activity android:name=".login" />
+        <activity android:name=".Language" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
