@@ -3,10 +3,10 @@ There are some instructions that you should follow while using this application
 # Prerequisites
 * you need to
           *on your location
-          *on your sms slide bar as well in youe mobile device
+          *on your sms slide bar as well in your mobile device
 # Specially for get the location
 you need to follow some steps as you want to send the message to the specified number:
-* In app folder
+** In app folder
           1step: go to source
           2step: main
           3step: java
