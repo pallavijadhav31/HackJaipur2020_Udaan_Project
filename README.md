@@ -9,10 +9,10 @@ There are some instructions that you should follow while using this application
 # Especially for get the location
 you need to follow some steps as you want to send the message to the specified number:
 >> In app folder
-
+          
           *1step: go to source
           
-          *2step: main
+          *2step: https://github.com/pallavijadhav31/HackJaipur2020_Udaan_Project/tree/master/app/src/main
           
           *3step: java
           
